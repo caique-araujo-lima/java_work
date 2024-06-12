@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class URI1009 {
-    public static void main(String args[]){
+    public static void main(String[] args){
         String nome;
         double salarioBase, totalVendas, salarioFinal;
 
@@ -14,6 +14,5 @@ public class URI1009 {
         salarioFinal = salarioBase + (totalVendas*0.15);
 
         System.out.printf("TOTAL = R$ %.2f\n", salarioFinal);
-
     }
 }
